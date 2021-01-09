@@ -43,3 +43,6 @@ and in the webhook Messaging section write your ngrok link with "/sms" at the en
 
 Example: <br>
 <img src="https://github.com/xKatooo/Node-SMS/blob/master/Sin%20t%C3%ADtulo.png?raw=true">
+
+
+After that send a message to your virtual number and update localhost: 3000, if this is your message it means that everything will be fine and the database has been created, now the messages will arrive in real time
