@@ -40,3 +40,6 @@ after that run the following commands
 then in : https://www.twilio.com/console/phone-numbers/incoming
 click on your phone number
 and in the webhook Messaging section write your ngrok link with "/sms" at the end
+
+Example: <br>
+<img src="https://github.com/xKatooo/Node-SMS/blob/master/Sin%20t%C3%ADtulo.png?raw=true">
