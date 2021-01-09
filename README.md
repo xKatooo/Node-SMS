@@ -31,9 +31,9 @@ once registered get a virtual number
 then write the respective data in the .env file
 after that run the following commands
 
-`mongo`
-`npm start`
-`ngrok http 3000`
+`mongo`<br>
+`npm start`<br>
+`ngrok http 3000`<br>
 
 
 (this step will have to be repeated every time you make a new ngrok tunnel)
