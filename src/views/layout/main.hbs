@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS - Node</title>
+    {{!-- CSS--}}
+    <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/noppa/text-security/master/dist/text-security.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    {{>navigation}}
+    <div class="container p-4">
+        {{>datos}}
+    </div>
+    <div class="container p-4">
+        
+        {{{body}}}
+    </div>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js"></script>
+</body>
+</html>

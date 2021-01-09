@@ -1,0 +1,32 @@
+{
+  "name": "Node-SMS",
+  "version": "1.0.0",
+  "description": "Send and receive SMS with node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xKatooo/Node-SMS"
+  },
+  "keywords": [],
+  "author": "xKatooo",
+  "license": "ISC",
+  "dependencies": {
+    "captainjs": "^1.0.4",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mongoose": "^5.11.10",
+    "morgan": "^1.10.0",
+    "socket.io": "^3.0.5",
+    "timeago.js": "^4.0.2",
+    "twilio": "^3.54.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
