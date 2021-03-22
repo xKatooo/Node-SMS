@@ -25,8 +25,8 @@ Requirements:
 ### Run:
 
 
-Before starting you need an account in twilio, enter this link and register, with which you receive 10 USD for you
-<a href="https://www.twilio.com/referral/LmJFbK">Click Here!!</a>
+Before starting you need an account in twilio, enter this link and register
+<a href="https://www.twilio.com">Click Here!!</a>
 once registered get a virtual number
 then write the respective data in the .env file
 after that run the following commands
